@@ -1,0 +1,6 @@
+{
+  "name": "นมแม่อุ่นใจ",
+  "description": "แหล่งความรู้และกำลังใจสำหรับคุณแม่ให้นม เพื่อทุกช่วงเวลาที่มีความหมาย",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

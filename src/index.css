@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@400;500;600;700&family=Prompt:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Prompt', ui-sans-serif, system-ui, sans-serif;
+  --font-heading: 'Mali', cursive;
+  
+  --color-cream: #FFF8F3;
+  --color-peachy: #FFB6A3;
+  --color-mint: #A8D8C8;
+  --color-butter: #FFE2A8;
+  --color-warm-brown: #5C4A3D;
+  --color-peachy-hover: #ff9f87;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-warm-brown);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+.text-heading {
+  font-family: var(--font-heading);
+}
+
+/* Custom Scrollbar for a softer feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-peachy);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-peachy-hover);
+}
